@@ -1,0 +1,53 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    display: inline;
+   background: url('images\ \(3\).jpeg');
+
+}
+.text-center{
+    text-align: center;
+}
+
+.mx-auto{
+    margin: auto;
+}
+.flex{
+display: flex;
+
+} 
+.flex-col{
+
+    flex-direction: column;
+}
+.item-center{
+    align-items: center;
+}
+.h1{
+  
+   font-size: 3em;
+   letter-spacing: 2px;
+}
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+   background-color: khaki;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-family: 'Times New Roman', Times, serif;
+
+    cursor: pointer;
+}
+.row{
+    margin:8px 0;
+}
+.row input{
+
+    font-size: 20px;
+  margin: 0;
+  background-color:khaki;
+  padding: 10px 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
